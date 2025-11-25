@@ -1,0 +1,2 @@
+scenario,year,soh_frac,E_y_mwh,total_throughput_mwh,cycles_per_day_equiv_on_E0,soc_min_mwh,soc_mean_mwh,soc_max_mwh,pct_hours_at_soc_min_bound,pct_hours_at_soc_max_bound,pct_idle_hours
+base_2023_da_only,1,0.9221529240000002,110.65835088000001,92642.49175803001,1.0575626913017124,5.5329175,61.0853789726631,105.12543,16.463622907890244,23.55687122850962,19.697142206535354

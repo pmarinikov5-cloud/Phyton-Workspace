@@ -1,0 +1,2 @@
+scenario,year,avg_cap_up_mw,avg_cap_down_mw,pct_blocks_with_commitment_up,pct_blocks_with_commitment_down,E_act_up_mwh,E_act_down_mwh,E_ch_total_mwh,E_ch_DA_mwh,E_ch_down_activation_mwh,rev_da_eur,rev_afrr_cap_up_eur,rev_afrr_cap_down_eur,rev_afrr_act_up_eur,rev_afrr_act_down_eur,rev_total_eur
+base_2023,1,16.07044919690311,7.066025334031653,55.87431693989071,29.872495446265937,4234.4026588920005,4344.263035616001,26985.3383837,22641.075348084,4344.263035616001,2625355.739710694,4156267.538492511,2250943.3360850173,301315.3013187391,44983.9817675965,9378865.89737456
