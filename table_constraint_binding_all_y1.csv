@@ -1,0 +1,3 @@
+scenario,year,pct_hours_conv_limit_binding,pct_hours_ATR_limit_binding,pct_hours_SoC_min_binding,pct_hours_SoC_max_binding,pct_hours_headroom_binding,pct_hours_footroom_binding
+base_2023,1,95.53683251736308,13.207332346578617,28.088352499146076,37.69782534441535,24.365251053170898,8.618922919275875
+base_2023_da_only,1,59.88842081293408,65.77479221222816,16.463622907890244,23.55687122850962,0.0,0.0
