@@ -1,5 +1,5 @@
 Model Description – BESS DA + aFRR Co-Optimisation
-
+*ADD .VENV ENVIRONMENT 
 This section documents the core optimisation model implemented in src/model_bess.py. The model is a (mixed-integer) linear program that co-optimises Day-Ahead (DA) arbitrage and automatic Frequency Restoration Reserve (aFRR) participation for a utility-scale BESS over one year, given exogenous price series and an exogenous SoH (usable energy) for that year.
 
 The model is solved once per project year; multi-year chaining, SoH path and financial aggregation are handled externally in run_scenario.py and financials.py.
@@ -264,5 +264,6 @@ run_scenario.py calls build_bess_model(...) once per project year, with E_year a
 – Computes annual revenues and throughput (compute_revenue_and_throughput)
 – Aggregates cashflows, CAPEX, OPEX and degradation costs (compute_financials_multi_year)
 – Exports dispatch_timeseries_y*.csv, kpis_per_year.csv and kpis_project.csv for further analysis, plotting and inclusion in the thesis.
+
 
 This means model_bess.py is a pure “single-year engine”: it only knows about one year’s market data and one year’s usable energy, and it focuses solely on the physical and market-rule consistency of DA + aFRR co-optimisation under ATR85.
